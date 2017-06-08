@@ -15,6 +15,30 @@ namespace ManuelTarea1
     {
 
         double A, B, C;
+        string palabra;
+        string p1, p2;
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            p1 = textBox1.Text;
+            p2 = txtSegundo.Text;
+
+            for(int x = p1.Length -1;  x >= 0; x--)
+            {
+                p2 += p1[x];
+            }
+            
+
+            MessageBox.Show("frase invertida" + p2 );
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            palabra = textBox1.Text;
+
+        }
+
         public Form1()
         {
             InitializeComponent();
