@@ -17,6 +17,7 @@ namespace ManuelTarea1
         double A, B, C;
         string palabra;
         string p1, p2;
+        double primero, segundo, tercero;
 
         private void button3_Click(object sender, EventArgs e)
         {
@@ -30,6 +31,16 @@ namespace ManuelTarea1
             
 
             MessageBox.Show("frase invertida" + p2 );
+
+        }
+
+        private void txtPrimero_Click(object sender, EventArgs e)
+        {
+            primero = int.Parse( textBox1.Text);
+            segundo = int.Parse(txtSegundo.Text);
+            tercero = int.Parse(txtTercero.Text);
+
+            MessageBox.Show("El resultado es" + (tercero * segundo) / primero);
 
         }
 

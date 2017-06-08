@@ -52,7 +52,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(26, 124);
+            this.label2.Location = new System.Drawing.Point(363, 50);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(63, 16);
             this.label2.TabIndex = 1;
@@ -61,7 +61,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(26, 195);
+            this.label3.Location = new System.Drawing.Point(26, 122);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(56, 16);
             this.label3.TabIndex = 2;
@@ -69,21 +69,21 @@
             // 
             // txtSegundo
             // 
-            this.txtSegundo.Location = new System.Drawing.Point(116, 124);
+            this.txtSegundo.Location = new System.Drawing.Point(453, 50);
             this.txtSegundo.Name = "txtSegundo";
             this.txtSegundo.Size = new System.Drawing.Size(236, 22);
             this.txtSegundo.TabIndex = 4;
             // 
             // txtTercero
             // 
-            this.txtTercero.Location = new System.Drawing.Point(116, 189);
+            this.txtTercero.Location = new System.Drawing.Point(116, 116);
             this.txtTercero.Name = "txtTercero";
-            this.txtTercero.Size = new System.Drawing.Size(236, 22);
+            this.txtTercero.Size = new System.Drawing.Size(213, 22);
             this.txtTercero.TabIndex = 5;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(390, 28);
+            this.button1.Location = new System.Drawing.Point(199, 161);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(120, 73);
             this.button1.TabIndex = 6;
@@ -93,7 +93,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(561, 28);
+            this.button2.Location = new System.Drawing.Point(427, 161);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(87, 73);
             this.button2.TabIndex = 7;
@@ -103,7 +103,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(390, 138);
+            this.button3.Location = new System.Drawing.Point(209, 257);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(87, 73);
             this.button3.TabIndex = 8;
@@ -113,25 +113,26 @@
             // 
             // txtPrimero
             // 
-            this.txtPrimero.Location = new System.Drawing.Point(561, 138);
+            this.txtPrimero.Location = new System.Drawing.Point(427, 257);
             this.txtPrimero.Name = "txtPrimero";
             this.txtPrimero.Size = new System.Drawing.Size(87, 73);
             this.txtPrimero.TabIndex = 9;
             this.txtPrimero.Text = "Regla De Tres";
             this.txtPrimero.UseVisualStyleBackColor = true;
+            this.txtPrimero.Click += new System.EventHandler(this.txtPrimero_Click);
             // 
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(116, 50);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(236, 22);
+            this.textBox1.Size = new System.Drawing.Size(213, 22);
             this.textBox1.TabIndex = 10;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(701, 234);
+            this.ClientSize = new System.Drawing.Size(701, 357);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.txtPrimero);
             this.Controls.Add(this.button3);
