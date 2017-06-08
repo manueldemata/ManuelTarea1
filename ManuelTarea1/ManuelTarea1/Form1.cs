@@ -46,8 +46,24 @@ namespace ManuelTarea1
 
         private void button2_Click(object sender, EventArgs e)
         {
+            string palabra;
+            int contador1 = 0, contador2 =0, consonante;
             palabra = textBox1.Text;
-
+            for(int i=0; i< palabra.Length; i++)
+            {
+                contador1++;
+            }
+            for(int i=0; i < palabra.Length; i++)
+            {
+                if((palabra[i] == 'a') || (palabra[i] == 'e') || (palabra[i] == 'i') || (palabra[i] == 'o') ||
+                    (palabra[i] == 'u'))
+                {
+                    contador2++;
+                }
+            }
+            consonante = contador1 - contador2;
+            MessageBox.Show("la palabra" + palabra + "tiene" + contador2 + "vocales");
+                
         }
 
         public Form1()
