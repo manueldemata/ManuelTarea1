@@ -30,7 +30,7 @@ namespace ManuelTarea1
             }
             
 
-            MessageBox.Show("frase invertida" + p2 );
+            MessageBox.Show("frase invertida" + p2 + txtTercero.Text);
 
         }
 
