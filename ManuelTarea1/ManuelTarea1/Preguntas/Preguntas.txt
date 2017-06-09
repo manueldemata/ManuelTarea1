@@ -1,0 +1,12 @@
+Que es un Commit?
+
+R//se refiere a la idea de consignar un conjunto de cambios "tentativos" de forma permanente. 
+Un uso popular es al final de una transacción de base de datos.
+
+¿Qué entiende como "merge"?
+
+R// Un sistema de gestión de base de datos relacional.
+
+¿Cuál es la diferencia entre "Pull" y "Push"?
+
+R// Los sistemas de jalar o pull y de empujar o push, son dos enfoques de gestión de operaciones.
